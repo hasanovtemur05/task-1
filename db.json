@@ -1,0 +1,529 @@
+{
+    "people": [
+      {
+        "id": 1,
+        "firstName": "Temur",
+        "lastName": "Xudoyberdiyev",
+        "birthPlace": "Toshkent",
+        "birthDate": "1995-03-12",
+        "address": "Toshkent shahri, Chilonzor tumani",
+        "relations": [
+          { "type": "do'st", "personId": 2 },
+          { "type": "sinfdosh", "personId": 5 },
+          { "type": "hamkasb", "personId": 11 },
+          { "type": "do'st", "personId": 21 },
+          { "type": "qarindosh", "personId": 15 }
+        ]
+      },
+      {
+        "id": 2,
+        "firstName": "Dilshod",
+        "lastName": "Rasulov",
+        "birthPlace": "Andijon",
+        "birthDate": "1993-07-21",
+        "address": "Andijon viloyati, Shahrixon tumani",
+        "relations": [
+          { "type": "do'st", "personId": 8 },
+          { "type": "hamkasb", "personId": 5 },
+          { "type": "sinfdosh", "personId": 12 },
+          { "type": "do'st", "personId": 25 },
+          { "type": "hamkasb", "personId": 18 }
+        ]
+      },
+      {
+        "id": 3,
+        "firstName": "Zarina",
+        "lastName": "Islomova",
+        "birthPlace": "Farg‘ona",
+        "birthDate": "1996-01-30",
+        "address": "Farg‘ona viloyati, Qo‘qon shahri",
+        "relations": [
+          { "type": "do'st", "personId": 4 },
+          { "type": "hamkasb", "personId": 6 },
+          { "type": "sinfdosh", "personId": 9 },
+          { "type": "do'st", "personId": 26 },
+          { "type": "hamkasb", "personId": 13 }
+        ]
+      },
+      {
+        "id": 4,
+        "firstName": "Nodira",
+        "lastName": "Islomova",
+        "birthPlace": "Farg‘ona",
+        "birthDate": "1990-06-11",
+        "address": "Farg‘ona viloyati, Qo‘qon shahri",
+        "relations": [
+          { "type": "do'st", "personId": 10 },
+          { "type": "hamkasb", "personId": 30 },
+          { "type": "sinfdosh", "personId": 22 },
+          { "type": "do'st", "personId": 27 },
+          { "type": "hamkasb", "personId": 17 }
+        ]
+      },
+      {
+        "id": 5,
+        "firstName": "Alisher",
+        "lastName": "Karimov",
+        "birthPlace": "Buxoro",
+        "birthDate": "1988-12-25",
+        "address": "Buxoro viloyati, Buxoro shahri",
+        "relations": [
+          { "type": "do'st", "personId": 2 },
+          { "type": "hamkasb", "personId": 1 },
+          { "type": "sinfdosh", "personId": 7 },
+          { "type": "do'st", "personId": 19 },
+          { "type": "hamkasb", "personId": 23 }
+        ]
+      },
+      {
+        "id": 6,
+        "firstName": "Shahnoza",
+        "lastName": "Karimova",
+        "birthPlace": "Buxoro",
+        "birthDate": "1992-09-08",
+        "address": "Buxoro viloyati, G‘ijduvon tumani",
+        "relations": [
+          { "type": "do'st", "personId": 24 },
+          { "type": "hamkasb", "personId": 29 },
+          { "type": "sinfdosh", "personId": 7 },
+          { "type": "do'st", "personId": 5 },
+          { "type": "hamkasb", "personId": 2 }
+        ]
+      },
+      {
+        "id": 7,
+        "firstName": "Gulbahor",
+        "lastName": "Karimova",
+        "birthPlace": "Buxoro",
+        "birthDate": "1970-05-02",
+        "address": "Buxoro viloyati, G‘ijduvon tumani",
+        "relations": [
+          { "type": "do'st", "personId": 7 },
+          { "type": "hamkasb", "personId": 6 },
+          { "type": "sinfdosh", "personId": 15 },
+          { "type": "do'st", "personId": 23 },
+          { "type": "hamkasb", "personId": 19 }
+        ]
+      },
+      {
+        "id": 8,
+        "firstName": "Javohir",
+        "lastName": "Usmonov",
+        "birthPlace": "Samarqand",
+        "birthDate": "1997-10-17",
+        "address": "Samarqand shahri",
+        "relations": [
+          { "type": "do'st", "personId": 2 },
+          { "type": "hamkasb", "personId": 19 },
+          { "type": "sinfdosh", "personId": 2 },
+          { "type": "do'st", "personId": 8 },
+          { "type": "hamkasb", "personId": 12 }
+        ]
+      },
+      {
+        "id": 9,
+        "firstName": "Mohira",
+        "lastName": "Usmonova",
+        "birthPlace": "Samarqand",
+        "birthDate": "1996-03-03",
+        "address": "Samarqand shahri",
+        "relations": [
+          { "type": "do'st", "personId": 1 },
+          { "type": "hamkasb", "personId": 2 },
+          { "type": "sinfdosh", "personId": 3 },
+          { "type": "do'st", "personId": 4 },
+          { "type": "hamkasb", "personId": 10 }
+        ]
+      },
+      {
+        "id": 10,
+        "firstName": "Laylo",
+        "lastName": "Usmonova",
+        "birthPlace": "Samarqand",
+        "birthDate": "1993-04-22",
+        "address": "Samarqand shahri",
+        "relations": [
+          {
+            "type": "singlisi",
+            "personId": 9
+          },
+          { "type": "do'st", "personId": 19 },
+          { "type": "hamkasb", "personId": 29 },
+          { "type": "sinfdosh", "personId": 30 },
+          { "type": "do'st", "personId": 25 },
+          { "type": "hamkasb", "personId": 26 }
+        ]
+      },
+      {
+        "id": 11,
+        "firstName": "Javohir",
+        "lastName": "Ahmedov",
+        "birthPlace": "Namangan",
+        "birthDate": "1992-06-14",
+        "address": "Namangan shahri",
+        "relations": [
+          {
+            "type": "sinfdosh",
+            "personId": 1
+          },
+          {
+            "type": "hamkasb",
+            "personId": 13
+          },
+          {
+            "type":"do'st",
+            "personId":1
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "firstName": "Shahriyor",
+        "lastName": "Ismailov",
+        "birthPlace": "Qashqadaryo",
+        "birthDate": "1994-11-10",
+        "address": "Qashqadaryo viloyati",
+        "relations": [
+          {
+            "type": "do'st",
+            "personId": 13
+          },
+          {
+            "type": "hamkasb",
+            "personId": 14
+          },
+          { "type": "do'st", "personId": 2 },
+          { "type": "hamkasb", "personId": 5 },
+          { "type": "sinfdosh", "personId": 11 },
+          { "type": "do'st", "personId": 21 },
+          { "type": "hamkasb", "personId": 15 }
+        ]
+      },
+      {
+        "id": 13,
+        "firstName": "Nargiza",
+        "lastName": "Raximova",
+        "birthPlace": "Toshkent",
+        "birthDate": "1998-09-09",
+        "address": "Toshkent shahri",
+        "relations": [
+          { "type": "do'st", "personId": 22 },
+          { "type": "hamkasb", "personId": 23 },
+          { "type": "sinfdosh", "personId": 24 },
+          { "type": "do'st", "personId": 25 },
+          { "type": "hamkasb", "personId": 26 }
+        ]
+      },
+      {
+        "id": 14,
+        "firstName": "Sanjar",
+        "lastName": "Sultonov",
+        "birthPlace": "Jizzax",
+        "birthDate": "1991-03-20",
+        "address": "Jizzax viloyati",
+        "relations": [
+          {
+            "type": "hamkasb",
+            "personId": 12
+          },
+          {
+            "type": "hamkasb",
+            "personId": 13
+          },
+          { "type": "do'st", "personId": 27 },
+          { "type": "hamkasb", "personId": 28 },
+          { "type": "sinfdosh", "personId": 29 },
+          { "type": "do'st", "personId": 30 },
+          { "type": "hamkasb", "personId": 20 }
+        ]
+      },
+      {
+        "id": 15,
+        "firstName": "Otabek",
+        "lastName": "G'ulomov",
+        "birthPlace": "Buxoro",
+        "birthDate": "1990-05-17",
+        "address": "Buxoro viloyati",
+        "relations": [
+          { "type": "do'st", "personId": 20 },
+          { "type": "hamkasb", "personId": 16 },
+          { "type": "sinfdosh", "personId": 12 },
+          { "type": "do'st", "personId": 28 },
+          { "type": "hamkasb", "personId": 20 }
+        ]
+      },
+      {
+        "id": 16,
+        "firstName": "Gulnoza",
+        "lastName": "Shodmonova",
+        "birthPlace": "Navoiy",
+        "birthDate": "1993-02-02",
+        "address": "Navoiy shahri",
+        "relations": [
+          { "type": "do'st", "personId": 2 },
+          { "type": "hamkasb", "personId": 5 },
+          { "type": "sinfdosh", "personId": 11 },
+          { "type": "do'st", "personId": 21 },
+          { "type": "hamkasb", "personId": 15 }
+        ]
+      },
+      {
+        "id": 17,
+        "firstName": "Zuhra",
+        "lastName": "Mullokulova",
+        "birthPlace": "Andijon",
+        "birthDate": "1995-01-11",
+        "address": "Andijon viloyati",
+        "relations": [
+          { "type": "do'st", "personId": 2 },
+          { "type": "hamkasb", "personId": 5 },
+          { "type": "sinfdosh", "personId": 11 },
+          { "type": "do'st", "personId": 21 },
+          { "type": "hamkasb", "personId": 15 }
+        ]
+      },
+      {
+        "id": 18,
+        "firstName": "Bahrom",
+        "lastName": "Umarov",
+        "birthPlace": "Qashqadaryo",
+        "birthDate": "1992-04-15",
+        "address": "Qashqadaryo viloyati",
+        "relations": [
+          {
+            "type": "singlisi",
+            "personId": 16
+          },
+          {
+            "type": "sinfdosh",
+            "personId": 19
+          },
+          { "type": "do'st", "personId": 9 },
+          { "type": "hamkasb", "personId": 7 },
+          { "type": "sinfdosh", "personId": 12 },
+          { "type": "do'st", "personId": 2 },
+          { "type": "hamkasb", "personId": 18 }
+        ]
+      },
+      {
+        "id": 19,
+        "firstName": "Nodira",
+        "lastName": "Azizova",
+        "birthPlace": "Farg‘ona",
+        "birthDate": "1991-07-30",
+        "address": "Farg‘ona viloyati",
+        "relations": [
+          {
+            "type": "hamkasb",
+            "personId": 17
+          },
+          {
+            "type": "sinfdosh",
+            "personId": 18
+          },
+          { "type": "do'st", "personId": 12 },
+          { "type": "hamkasb", "personId": 9 },
+          { "type": "sinfdosh", "personId": 1 },
+          { "type": "do'st", "personId": 21 },
+          { "type": "hamkasb", "personId": 20 }
+        ]
+      },
+      {
+        "id": 20,
+        "firstName": "Aziza",
+        "lastName": "Tursunova",
+        "birthPlace": "Toshkent",
+        "birthDate": "1994-05-24",
+        "address": "Toshkent shahri",
+        "relations": [
+          {
+            "type": "xolasi",
+            "personId": 17
+          },
+          {
+            "type": "do'st",
+            "personId": 16
+          },
+          { "type": "do'st", "personId": 2 },
+          { "type": "hamkasb", "personId": 4 },
+          { "type": "sinfdosh", "personId": 3 },
+          { "type": "do'st", "personId": 20 },
+          { "type": "hamkasb", "personId": 12 }
+        ]
+      },
+      {
+        "id": 21,
+        "firstName": "Farrukh",
+        "lastName": "Azamov",
+        "birthPlace": "Buxoro",
+        "birthDate": "1993-12-03",
+        "address": "Buxoro viloyati",
+        "relations": [
+          { "type": "sinfdosh", "personId": 8 },
+          { "type": "qarindosh", "personId": 5 },
+          { "type": "do'st", "personId": 11 },
+          { "type": "do'st", "personId": 21 },
+          { "type": "hamkasb", "personId": 15 }
+        ]
+      },
+      {
+        "id": 22,
+        "firstName": "Azizbek",
+        "lastName": "Sattorov",
+        "birthPlace": "Namangan",
+        "birthDate": "1997-08-28",
+        "address": "Namangan shahri",
+        "relations": [
+          {
+            "type": "hamkasb",
+            "personId": 3
+          },
+          {
+            "type": "sinfdosh",
+            "personId": 6
+          },
+          { "type": "do'st", "personId": 2 },
+          { "type": "hamkasb", "personId": 5 },
+          { "type": "sinfdosh", "personId": 11 },
+          { "type": "do'st", "personId": 21 },
+          { "type": "hamkasb", "personId": 15 }
+        ]
+      },
+      {
+        "id": 23,
+        "firstName": "Kamron",
+        "lastName": "Abdullayev",
+        "birthPlace": "Samarqand",
+        "birthDate": "1995-11-02",
+        "address": "Samarqand shahri",
+        "relations": [
+          { "type": "do'st", "personId": 21 },
+          { "type": "hamkasb", "personId": 30 },
+          { "type": "sinfdosh", "personId": 12 },
+          { "type": "do'st", "personId": 29 },
+          { "type": "hamkasb", "personId": 22 }
+        ]
+      },
+      {
+        "id": 24,
+        "firstName": "Dilshod",
+        "lastName": "Raximov",
+        "birthPlace": "Jizzax",
+        "birthDate": "1990-01-05",
+        "address": "Jizzax viloyati",
+        "relations": [
+          { "type": "do'st", "personId": 21 },
+          { "type": "hamkasb", "personId": 15 },
+          { "type": "sinfdosh", "personId": 17 },
+          { "type": "do'st", "personId": 29 },
+          { "type": "hamkasb", "personId": 18 }
+        ]
+      },
+      {
+        "id": 25,
+        "firstName": "Nodira",
+        "lastName": "Fayzullaeva",
+        "birthPlace": "Buxoro",
+        "birthDate": "1992-06-18",
+        "address": "Buxoro shahri",
+        "relations": [
+          {
+            "type": "sinfdosh",
+            "personId": 24
+          },
+          {
+            "type": "hamkasb",
+            "personId": 26
+          },
+          { "type": "do'st", "personId": 22 },
+          { "type": "hamkasb", "personId": 15 },
+          { "type": "sinfdosh", "personId": 13 },
+          { "type": "do'st", "personId": 27 },
+          { "type": "hamkasb", "personId": 15 }
+        ]
+      },
+      {
+        "id": 26,
+        "firstName": "Shahlo",
+        "lastName": "Islomova",
+        "birthPlace": "Farg‘ona",
+        "birthDate": "1996-07-19",
+        "address": "Farg‘ona viloyati",
+        "relations": [
+          { "type": "do'st", "personId": 9 },
+          { "type": "hamkasb", "personId": 8 },
+          { "type": "sinfdosh", "personId": 7 },
+          { "type": "do'st", "personId": 6 },
+          { "type": "hamkasb", "personId": 5 }
+        ]
+      },
+      {
+        "id": 27,
+        "firstName": "Nurbek",
+        "lastName": "Nasrullayev",
+        "birthPlace": "Namangan",
+        "birthDate": "1994-02-07",
+        "address": "Namangan shahri",
+        "relations": [
+          { "type": "do'st", "personId": 19 },
+          { "type": "hamkasb", "personId": 18 },
+          { "type": "sinfdosh", "personId": 17 },
+          { "type": "do'st", "personId": 16 },
+          { "type": "hamkasb", "personId": 15 }
+        ]
+      },
+      {
+        "id": 28,
+        "firstName": "Kavsar",
+        "lastName": "Khodjayeva",
+        "birthPlace": "Samarqand",
+        "birthDate": "1995-03-23",
+        "address": "Samarqand shahri",
+        "relations": [
+          { "type": "do'st", "personId": 10 },
+          { "type": "hamkasb", "personId": 11 },
+          { "type": "sinfdosh", "personId": 12 },
+          { "type": "do'st", "personId": 13 },
+          { "type": "hamkasb", "personId": 20 }
+        ]
+      },
+      {
+        "id": 29,
+        "firstName": "Zarina",
+        "lastName": "Umarova",
+        "birthPlace": "Toshkent",
+        "birthDate": "1997-09-30",
+        "address": "Toshkent shahri",
+        "relations": [
+          {
+            "type": "do'st",
+            "personId": 28
+          },
+          {
+            "type": "hamkasb",
+            "personId": 30
+          },  
+          { "type": "do'st", "personId": 9 },
+          { "type": "hamkasb", "personId": 8 },
+          { "type": "sinfdosh", "personId": 7 },
+          { "type": "do'st", "personId": 6 },
+          { "type": "hamkasb", "personId": 5 }
+        ]
+      },
+      {
+        "id": 30,
+        "firstName": "Javohir",
+        "lastName": "Sodiqov",
+        "birthPlace": "Farg‘ona",
+        "birthDate": "1998-01-10",
+        "address": "Farg‘ona shahri",
+        "relations": [
+          { "type": "do'st", "personId": 30 },
+          { "type": "hamkasb", "personId": 29 },
+          { "type": "sinfdosh", "personId": 17 },
+          { "type": "do'st", "personId": 26 },
+          { "type": "hamkasb", "personId": 15 }
+        ]
+      }
+    ]
+  }
