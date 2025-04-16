@@ -11,11 +11,13 @@ const App = () => {
   const [errorMessage, setErrorMessage] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3000/people")
+    fetch("/db.json")
       .then((res) => res.json())
-      .then((data) => setPeople(data))
+      .then((data) => setPeople(data?.people))
       .catch((error) => console.error(error));
   }, []);
+
+  
 
   const handleSearch = () => {
     setErrorMessage("");
